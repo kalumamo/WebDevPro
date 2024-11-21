@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Edu AU VIC WA NT Pr, cursive;
+  height: 100%;
+}
+.container {
+  background-color: #1a1a1a;
+  background: linear-gradient(135deg, #8a2ba8, #4169e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.content {
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+}
+.log {
+  width: 150px;
+  height: 75px;
+  object-fit: contain;
+}
+h1 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 60px;
+}
+button {
+  padding: 0.5rem;
+  background-color: #8a2ba8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.9);
+}
+button:hover {
+  background-color: #999292;
+}
+svg {
+  position: absolute;
+}

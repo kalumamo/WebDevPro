@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selector</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      p {
+        font-size: 16px;
+        margin: 10px 20px 15px 20px;
+        padding: 1px 2px;
+      }
+      .highlight {
+        background-color: #ac2c2c;
+      }
+      #header {
+        background-color: #4e1ad1;
+      }
+      input[type="text"] {
+        border: 2px solid brown;
+      }
+      article p {
+        font-style: italic;
+        background-color: #743030;
+      }
+      ul > li {
+        background-color: #de2626;
+      }
+      a:hover {
+        background-color: #5ddd99;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        margin: 4px;
+      }
+      p::first-letter {
+        font-weight: bold;
+        font-size: 30px;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #5ddd99;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">this ie the header</header>
+    <h1>Main Heading</h1>
+    <p>this is the paragraph is adjecent to the selector</p>
+    <p>this one is the regular paragraph</p>
+    <p class="highlight">this paragraph is a highlight class</p>
+    <input type="text" placeholder="inter your name" />
+    <article>
+      <p>this paragraph is inside an article</p>
+    </article>
+    <ul>
+      <li>direct child list</li>
+      <li>another direct child</li>
+      <li></li>
+    </ul>
+    <h2>sub heading</h2>
+    <a href="#">hover over me</a>
+    <p>this paragraph demostrate the sido element</p>
+  </body>
+</html>
